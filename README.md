@@ -11,7 +11,12 @@ In particular
 
 Usage:
 
-CMake to build:
+CMake to build (assuming you cloned):
+```
+cd flash_attention_v2
+cmake -B build -S .
+cmake --build build
+```
 
 Running instructions:
 ```
